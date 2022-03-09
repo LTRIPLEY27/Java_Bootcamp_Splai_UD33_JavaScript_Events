@@ -1,0 +1,16 @@
+body    {
+    background-color: rgb(229, 203, 253);
+    margin: 20%;
+}
+
+.container  {
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    align-content: center;
+}
+
+#dados  {
+    background-image: url("/Ejercicio11_Dados/img/dados.PNG");
+}
