@@ -1,0 +1,47 @@
+body{
+    margin: 30%;
+}
+
+.container  {
+    display: flex;
+    border: solid black 1px;
+    flex-direction: column;
+    width: 400px;
+    height: 300px;
+}
+
+.hijo1  {
+    border-radius: 15px;
+    width: 400px;
+    height: 50px;
+}
+
+/* CANVAS QUE RECIBIRÁ LAS INSTRUCCIONES Y DEVOLVERÁ RESULTADOS*/
+#canvas {
+    border: solid black 1px;
+    margin-left: 100px;
+    width: 200px;
+    height: 50px;
+}
+
+.hijo2  {
+    width: 400px;
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    border: solid rebeccapurple 1px;
+}
+
+.hijo2 > div     {
+    width: 400px;
+    height: 10px;
+    /*margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;*/
+}
+
+#retro, #ce, #c {
+    width: 80px;
+    height: 30pgix;
+    margin: 10px;
+}
