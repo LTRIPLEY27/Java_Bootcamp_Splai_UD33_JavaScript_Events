@@ -21,6 +21,8 @@ main    {
     height: 15%;
     margin-left: 30px;
     margin-bottom: 20px;
+    font-size: 40px;
+    text-align: end;
 }
 
 .calculum   {
@@ -77,4 +79,9 @@ main    {
 
 .item2{
     grid-template-columns: 1.80fr;
+}
+
+button{
+    box-shadow: -5px -5px 5px #888;
+    border: 0;
 }

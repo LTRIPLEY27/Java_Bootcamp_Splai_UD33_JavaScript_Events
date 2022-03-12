@@ -8,34 +8,33 @@
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
-   
     <main>
       <header><h1>Casio Calculator</h1></header>
-      <input type="text" class="pantalla" />
+      <input type="text" class="pantalla" placeholder="0" id="pantalla" name="pantalla"/>
       <div class="calculum">
-        <button class="item23">Retr</button>
-        <button class="item1">CE</button>
-        <button class="item2">C</button>
-        <button class="item3">1</button>
-        <button class="item4">2</button>
-        <button class="item5">3</button>
-        <button class="item6">4</button>
-        <button class="item7">5</button>
-        <button class="item8">6</button>
-        <button class="item9">7</button>
-        <button class="item10">8</button>
-        <button class="item11">9</button>
-        <button class="item12">/</button>
-        <button class="item13">Raiz</button>
-        <button class="item14">*</button>
-        <button class="item15">%</button>
-        <button class="item16">-</button>
-        <button class="item17">1/x</button>
-        <button class="item18">.</button>
-        <button class="item19">+</button>
-        <button class="item20">=</button>
-        <button class="item21">0</button>
-        <button class="item22">+/-</button>
+        <button class="item23" id="delete" onclick="deleting()">Retr</button>
+        <button class="item1" id="delete" onclick="deleting()">CE</button>
+        <button class="item2" id="delete" onclick="deleting()">C</button>
+        <button class="item3" value="1" id="uno" onclick="calculum(document.getElementById('uno'))">1</button>
+        <button class="item4" value="2" id="dos" onclick="calculum(document.getElementById('dos'))">2</button>
+        <button class="item5" id="tres" value="3" onclick="calculum(document.getElementById('tres'))">3</button>
+        <button class="item6" id="cuatro" value = "4" onclick="calculum(document.getElementById('cuatro'))">4</button>
+        <button class="item7" id="cinco" value="5" onclick="calculum(document.getElementById('cinco'))">5</button>
+        <button class="item8" id="seis" value="6" onclick="calculum(document.getElementById('seis'))">6</button>
+        <button class="item9" id="siete" value="7" onclick="calculum(document.getElementById('siete'))">7</button>
+        <button class="item10" id="ocho"value="8" onclick="calculum(document.getElementById('ocho'))">8</button>
+        <button class="item11" id="nueve" value="9" onclick="calculum(document.getElementById('nueve'))">9</button>
+        <button class="item12" id="divide" onclick="opera(getElementById('divide'))">/</button>
+        <button class="item13" id="raiz" onclick="opera(document.getElementById('raiz'))">Raiz</button>
+        <button class="item14" id="multiplica" onclick="opera(document.getElementById('multiplica'))">*</button>
+        <button class="item15" id="residuo" onclick="opera(document.getElementById('residuo'))">%</button>
+        <button class="item16" id="resta" onclick="opera(document.getElementById('resta'))">-</button>
+        <button class="item17" id="potencia" onclick="opera(document.getElementById('potencia'))">1/x</button>
+        <button class="item18" id="punto" onclick="calculum(document.getElementById('punto'))">.</button>
+        <button class="item19" id="suma" onclick="opera(document.getElementById('suma'))">+</button>
+        <button class="item20" id="equals" onclick="equality()">=</button>
+        <button class="item21" id="zero" onclick="calculum(document.getElementById('zero'))">0</button>
+        <button class="item22" id="negativo" onclick="opera(document.getElementById('negativo'))">+/-</button> --> 
       </div>
     </main>
 
