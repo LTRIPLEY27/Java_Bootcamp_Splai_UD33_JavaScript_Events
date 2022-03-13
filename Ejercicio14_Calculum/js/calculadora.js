@@ -1,7 +1,7 @@
 // VARIABLES GLOBALES
 
 const opciones = ['uno', 'dos', 'tres', 'cuatro', 'cinco', 'seis', 'siete', 'ocho', 'nueve', 'divide', 'raiz', 'multiplica', 'residuo', 'resta', 'potencia', 'punto', 'suma', 'equals', 'zero', 'negativo'];
-var opcion, number, number2, resultado, values;
+var opcion, number, number2, resultado, values, valor;
 //const numbers = ['uno', 'dos', 'tres', 'cuatro', 'cinco', 'seis', 'siete', 'ocho', 'nueve', 'zero'];
 const simbols = ['divide', 'raiz', 'multiplica', 'residuo', 'resta', 'potencia', 'punto', 'suma', 'equals', 'zero', 'negativo'];
 
@@ -9,8 +9,6 @@ function calculum(choice) {
     this.opcion = parseFloat(choice.value);
     document.getElementById('pantalla').value += this.opcion;
     number = document.getElementById('pantalla').value;  
-    
-    return number;
 }
 
 
@@ -21,48 +19,37 @@ function deleting() {
 
 /**FUNCIÓN PARA REALIZAR DIVISION */
 
-function opera(x){
-    //alert(number);
+function operador(aux) {
+    valor = number;//PRIMER VALORE ALMACENADO
     deleting();
+    values = aux.id;
+}
 
-    values = x.id;
-    alert(values);
+function opera(){
     switch(values) {
         case "divide" :
-           number2 = segundoParametro();
-           alert(number2);
-           resultado = number /= number2;
+           resultado = valor / number;
         break;
         case "raiz" :
-           // number2 = document.getElementById('pantalla').value;
-           resultado = number = Math.sqrt(number);
-           alert(number);
-           alert(resultado);
+           resultado = Math.sqrt(valor);
         break;
         case "multiplica" :
-            number2 = parseFloat(document.getElementById('pantalla').value);
-            alert(number2);
-            resultado = number *= number2;
+            resultado = valor * number;
         break;
         case "residuo" :
-            number2 = parseFloat(document.getElementById('pantalla').value);
-            resultado = number %= number2;
+            resultado = valor % number;
         break;
         case "resta" :
-            number2 = parseFloat(document.getElementById('pantalla').value);
-            resultado = number -= number2;
+            resultado = valor - number;
         break;
         case "potencia" :
-            number2 = parseFloat(document.getElementById('pantalla').value);
-            resultado = number = Math.pow(number, number2);
+            resultado = Math.pow(valor, number);
         break;
         case "suma" :
-            number2 = parseFloat(document.getElementById('pantalla').value);
-            resultado = number += number2;
+            resultado = (valor) + (number);
         break;
         case "negativo" :
-            //number2 = document.getElementById('pantalla').value;
-            resultado = number -= number(number * 2);
+            resultado = (-valor);
         break;
         default:
             resultado = deleting();
@@ -70,15 +57,8 @@ function opera(x){
     }
 }
 
-function segundoParametro(){
-    let aux = document.getElementById('pantalla').value;
-    let b = parseFloat(aux);
-
-    return aux;
-}
-
 function equality(){
-   // deleting();
-    alert(resultado);
-    document.getElementById('pantalla').value.id.value+= resultado;
+    opera();
+    deleting();
+    document.getElementById('pantalla').value+= resultado;
 }
