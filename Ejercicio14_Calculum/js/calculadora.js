@@ -1,16 +1,11 @@
 // VARIABLES GLOBALES
-
-const opciones = ['uno', 'dos', 'tres', 'cuatro', 'cinco', 'seis', 'siete', 'ocho', 'nueve', 'divide', 'raiz', 'multiplica', 'residuo', 'resta', 'potencia', 'punto', 'suma', 'equals', 'zero', 'negativo'];
 var opcion, number, number2, resultado, values, valor;
-//const numbers = ['uno', 'dos', 'tres', 'cuatro', 'cinco', 'seis', 'siete', 'ocho', 'nueve', 'zero'];
-const simbols = ['divide', 'raiz', 'multiplica', 'residuo', 'resta', 'potencia', 'punto', 'suma', 'equals', 'zero', 'negativo'];
 
 function calculum(choice) {
     this.opcion = parseFloat(choice.value);
     document.getElementById('pantalla').value += this.opcion;
     number = document.getElementById('pantalla').value;  
 }
-
 
 /**FUNCION PARA RESETEAR EL IMPUT */
 function deleting() {
@@ -46,7 +41,7 @@ function opera(){
             resultado = Math.pow(valor, number);
         break;
         case "suma" :
-            resultado = (valor) + (number);
+            resultado = parseFloat(valor) + parseFloat(number);
         break;
         case "negativo" :
             resultado = (-valor);
