@@ -1,0 +1,24 @@
+body{
+    margin: auto 0px;
+    background-color: bisque;
+}
+
+#imagenes   {
+    float: left;
+    width: 30%;
+}
+
+#imagenes img {
+    width: 30%;
+    margin: 4%;
+}
+
+#marco  {
+    float: left;
+    width: 70%;
+}
+
+#focus  {
+    width: 100%;
+    position: relative;
+}

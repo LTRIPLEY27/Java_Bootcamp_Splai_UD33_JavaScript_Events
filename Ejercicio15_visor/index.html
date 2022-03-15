@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visor de imágenes</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <main>
+        <div id="imagenes">
+            <img src="img/foto1.jpg" id="taj" alt="Taj Majal" onclick="visualiza(1)"> <!--EN JAVASCRIPRT LAS IÁGENES TAMBIÉN SIRVEN COMO PARÁMETROS-->
+            <img src="img/foto2.jpg" id="agricultura" alt="Agricultura" onclick="visualiza(2)">
+            <img src="img/foto3.jpg" id="atenas" alt="Atenas" onclick="visualiza(3)">
+            <img src="img/foto4.jpg" id="riviera" alt="Riviera" onclick="visualiza(4)">
+            <img src="img/foto5.jpg" id="avila" alt="Avila" onclick="visualiza(5)">
+            <img src="img/foto6.jpg" id="giza" alt="Giza" onclick="visualiza(6)">
+            <img src="img/foto7.jpg" id="londres" alt="Londres" onclick="visualiza(7)">
+            <img src="img/foto8.jpg" id="diablo" alt="Puente del Diablo" onclick="visualiza(8)">
+        </div>
+
+        <div class="marco">
+            <div class="focus">
+                <img src="img/foto1.jpg" id="taj" alt="Taj Majal" name = "foto">
+                <p id="nombre"></p>
+            </div>
+        </div>
+    </main>
+    
+    <script src="js/visor.js"></script>
+</body>
+</html>
