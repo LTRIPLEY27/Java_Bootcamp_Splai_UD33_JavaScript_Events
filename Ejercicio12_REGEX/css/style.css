@@ -1,0 +1,11 @@
+body    {
+    background-color: bisque;
+    margin: 10%;
+}
+
+p   {
+    margin-left: 30%;
+    font-size: 20px;
+    color: blueviolet;
+    font-family: Arial;
+}
