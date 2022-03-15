@@ -34,6 +34,7 @@ main    {
     grid-template-columns: repeat(5, 1fr);
     grid-template-rows: repeat(5, 1fr);
     gap: 10px;
+    /*DEFINICIÓN Y UBICACIÓN DE LAS GRILLAS POR NOMBRES DE LAS GRID ÁREAS*/
     grid-template-areas:
         "Retr CE C"
         "siete ocho nueve slash raiz"
@@ -69,6 +70,7 @@ main    {
 .item21 {grid-area: "cero";}
 .item22 {grid-area: "mas";}
 
+/* DEFINICIÓN DE LOS 3 BOTONES PRINCIPALES CON MAYOR LOGITUD*/
 .item23 {
     grid-area: 1 / span 3;
 }

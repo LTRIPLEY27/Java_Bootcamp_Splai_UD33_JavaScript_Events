@@ -14,16 +14,27 @@
   </head>
   <body>
       <div class="container">
-          <div class="float-start" class = "col-md-6">
-            <img src="/Ejercicio11_Dados/img/dados.PNG" alt="dados">
+        <div class="row">
+          <div class="col-md-3"></div>
+            <div class="col-md-6">
+              <img src="img/dados.PNG" alt="dados">
+            </div>
+            <button type="button" class="btn btn-warning" onclick="calculum()">Try your Luck!!!</button>
+            <div class="col-md-3"></div>
+            <div class="col-md6">
+                <p id="dados1"></p>
+                <p id="dados2"></p>
+            </div>
+            <div class="col-md-3"></div>
+            <div class="col-md6">
+              <p id="suma"></p>
           </div>
-        <div id="dados" class="col-md-6"></div>
-        <div id="dados1" class="col-md-6"></div>
-        <div id="total" class="col-md-6"></div>
-        <div class="col-md-6">
-            <button type="button" class="btn btn-warning" onclick="calculum(), sumaDado()">Try your Luck!!!</button>
+          <div class="col-md-3">
+            <p id="repite" ></p>
+          </div>
+          </div>
         </div>
       </div>
-    <script src="/Ejercicio11_Dados/js/dados.js"></script>
+    <script src="js/dados.js"></script>
   </body>
 </html>
