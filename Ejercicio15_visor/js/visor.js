@@ -1,7 +1,9 @@
 function visualiza(img) {//LAS IMÁGENES SE PUEDEN PASAR CON SUS ATRIBUTOS EN JAVASCRIPT
-    images = "img/foto" + img + ".jpg";//COMPONE LA IMAGEN EXACTA AGRAGANDO CON STRINGS EL NUMERO
+    images = "img/foto" + img + ".jpg";//COMPONE LA IMAGEN EXACTA AGREGANDO CON STRINGS EL NUMERO
     document.images["foto"].src = images;
-    var name = document.images.src.alt;
-    alert(hola);
-    document.getElementById("nombre")+= "hola";
+    let value = img - 1;
+    let valu2 = document.images[value].alt;
+    document.getElementById("nombre").innerHTML = valu2;
 }
+
+
