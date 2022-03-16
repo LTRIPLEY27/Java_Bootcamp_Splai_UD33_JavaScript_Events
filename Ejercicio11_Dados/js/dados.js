@@ -7,11 +7,11 @@ var sumaDados = [0, 0, 0, 0, 0, 0, 0, 0, 0 ,0 ,0]; //SOLO 11 POSIBLES SUMAS
 function calculum() {
     dado1 = parseInt((Math.random() * (6 - 1)) + 1);
     dado2 = parseInt((Math.random() * (6 - 1)) + 1);
-    document.getElementById("dados1").innerHTML+= "Los números del dado 1 son : " + dado1;
-    document.getElementById("dados2").innerHTML+= "Los números del dado 2 son : " + dado2;
+    document.getElementById("dados1").innerHTML = "Los números del dado 1 son : " + dado1;
+    document.getElementById("dados2").innerHTML = "Los números del dado 2 son : " + dado2;
     total = dado1 + dado2;
     alert(total);
-    document.getElementById("suma").innerHTML+= "La suma es igual a" + total;
+    document.getElementById("suma").innerHTML+= "La suma es igual a" + total + "mira a la consola para ver la simulación";
 
     //LLAMADO AL MÉTODO DE VERIFICACIÓN DE LA REPETICIÓN DE SUMAS
 
