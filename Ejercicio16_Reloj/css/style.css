@@ -1,0 +1,23 @@
+body    {
+    margin: auto 0px;
+}
+
+main {
+    margin: 10%;
+    background-color: aquamarine;
+    display: flex;
+    flex-direction: row;
+}
+
+main > div {
+    width: 200px;
+    height: 150px;
+    background-color: black;
+    margin: 10px;
+    color: yellowgreen;
+    text-align: center;
+    font-size: 85px;
+    line-height: 150px;
+}
+
+
