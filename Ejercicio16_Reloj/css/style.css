@@ -3,13 +3,26 @@ body    {
 }
 
 main {
-    margin: 10%;
+    margin: 20%;
     background-color: aquamarine;
-    display: flex;
-    flex-direction: row;
+    position: absolute;
+    border-radius: 15px;
+    align-items: center;
 }
 
-main > div {
+p{
+    font-family: Courier;
+    font-size: 45px;
+    text-align: center;
+}
+
+.container  {
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.container > div {
     width: 200px;
     height: 150px;
     background-color: black;
@@ -18,6 +31,7 @@ main > div {
     text-align: center;
     font-size: 85px;
     line-height: 150px;
+    border-radius: 15px;
 }
 
 
