@@ -2,8 +2,13 @@
 var opcion, number, number2, resultado, values, valor;
 
 function calculum(choice) {
-    this.opcion = parseFloat(choice.value);
-    document.getElementById('pantalla').value += this.opcion;
+    let aux = choice.value;
+    if(aux == ".") {
+        document.getElementById('pantalla').value += "."
+    } else {
+        this.opcion = parseFloat(choice.value);
+        document.getElementById('pantalla').value += this.opcion;
+    }
     number = document.getElementById('pantalla').value;  
 }
 
@@ -19,6 +24,7 @@ function operador(aux) {
     deleting();
     values = aux.id;
 }
+
 
 function opera(){
     switch(values) {
@@ -51,7 +57,7 @@ function opera(){
         break;
     }
 }
-
+//FUNCIÓN QUE DISPARA EL RETORNO DEL RESULTADO
 function equality(){
     opera();
     deleting();
