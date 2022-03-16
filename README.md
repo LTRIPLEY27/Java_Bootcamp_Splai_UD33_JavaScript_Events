@@ -74,5 +74,75 @@ https://ltripley27.github.io/Java_Bootcamp_Splai_UD33_JavaScript_Events/Ejercici
                                                                   
  - DESPLIEGUE EN GITHUB PAGES:
 
+https://ltripley27.github.io/Java_Bootcamp_Splai_UD33_JavaScript_Events/Ejercicio13_Tablas_Y_Parrafos/index.html
+
+
+![image](https://user-images.githubusercontent.com/36207623/158643456-757da6e4-68cc-4118-b19c-2b2370e5b80d.png)
+
+![image](https://user-images.githubusercontent.com/36207623/158643512-7e47ffd8-6c65-42dd-9c7f-d9b462cf0c32.png)
+
+![image](https://user-images.githubusercontent.com/36207623/158643589-f243fc35-0033-4b31-8d02-b2abb2d1b1ff.png)
+
+
+                                                                  EJERCICIO 4
+                                                                  
+                                                                  
+                                                                  
+ - ENUNCIADO :
+ 
+
+![image](https://user-images.githubusercontent.com/36207623/158643733-f3ff4b55-ea08-4adf-b829-de78f8c33a24.png)
+
+ ![image](https://user-images.githubusercontent.com/36207623/158643780-33a37a47-75bf-4f88-9b93-657863e718c8.png)
+
+                                                                  RESULTADOS
+                                                                  
+                                                                  
+ - DESPLIEGUE EN GITHUB PAGES:
+
+https://ltripley27.github.io/Java_Bootcamp_Splai_UD33_JavaScript_Events/Ejercicio14_Calculum/index.html
+
+![image](https://user-images.githubusercontent.com/36207623/158644202-53538b81-de7d-4a70-98f9-50594eaab07b.png)
+
+
+                                                                  EJERCICIO 5
+                                                                  
+                                                                  
+                                                                  
+ - ENUNCIADO :
+ 
+![image](https://user-images.githubusercontent.com/36207623/158644330-257f77d5-f68b-4698-be22-53508d236f4a.png)
+
+
+                                                                  RESULTADOS
+                                                                  
+                                                                  
+ - DESPLIEGUE EN GITHUB PAGES:
+
+https://ltripley27.github.io/Java_Bootcamp_Splai_UD33_JavaScript_Events/Ejercicio15_visor/index.html
+
+![image](https://user-images.githubusercontent.com/36207623/158644434-7ff5dbdf-35e7-42df-84d1-63477671a91e.png)
+
+![image](https://user-images.githubusercontent.com/36207623/158644525-8a7088ec-6b6c-41d8-bcf0-24bb0f04a068.png)
+
+
+                                                                  EJERCICIO 6
+                                                                  
+                                                                  
+                                                                  
+ - ENUNCIADO :
+ 
+![image](https://user-images.githubusercontent.com/36207623/158644684-30fb5c97-f5a8-4f59-a6b6-c3fc82023376.png)
+
+
+
+                                                                  RESULTADOS
+                                                                  
+                                                                  
+ - DESPLIEGUE EN GITHUB PAGES:
+
+https://ltripley27.github.io/Java_Bootcamp_Splai_UD33_JavaScript_Events/Ejercicio16_Reloj/index.html
+
+![image](https://user-images.githubusercontent.com/36207623/158644829-224ca23e-f1af-4ba7-a8ec-75de98587f12.png)
 
 
